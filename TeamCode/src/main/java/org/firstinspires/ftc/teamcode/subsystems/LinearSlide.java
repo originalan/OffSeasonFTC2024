@@ -17,14 +17,14 @@ public class LinearSlide extends Subsystem {
     private Telemetry telemetry;
     private JVBoysSoccerRobot robot;
     private MotionProfile mp;
-    private PIDFControl controller;
+    public PIDFControl controller;
     private ElapsedTime motionProfileTime = new ElapsedTime();
     private int STARTING_POS = 0, ENDING_POS = 0;
 
     public enum SlideState {
         MOTION_PROFILE,
         REST,
-        NOTHING
+        NOTHING,
     }
     public SlideState slideState = SlideState.REST;
 

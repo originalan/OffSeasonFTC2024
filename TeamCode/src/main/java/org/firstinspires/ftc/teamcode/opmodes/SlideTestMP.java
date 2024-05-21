@@ -13,8 +13,8 @@ import org.firstinspires.ftc.teamcode.RobotSettings;
 import org.firstinspires.ftc.teamcode.subsystems.JVBoysSoccerRobot;
 import org.firstinspires.ftc.teamcode.subsystems.LinearSlide;
 
-@TeleOp (name = "Slide Test", group = "Testing")
-public class SlideTest extends LinearOpMode {
+@TeleOp (name = "Slide Test MP", group = "Testing")
+public class SlideTestMP extends LinearOpMode {
 
     private JVBoysSoccerRobot robot;
     private BulkReading bulkReading;
